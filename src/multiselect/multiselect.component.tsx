@@ -178,7 +178,6 @@ export class Multiselect extends Component {
       r[key].push(a);
       return r;
     }, Object.create({}));
-
     this.setState({ groupedObject });
   }
 
